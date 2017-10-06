@@ -8,7 +8,6 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
-
 # Site Settings
 title: "GDG DevFest Málaga 2017"
 email: "devfest@gdg.org.ua"
@@ -58,7 +57,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "GDG DevFest <typeout> 2014"
 eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+typeoutTextValues: '"", "Málaga"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -147,19 +146,6 @@ ticketsOffers:
   validThrough: "2017-10-31T23:59"
   #soldOutText: "Sold Out"
  -
-  name: "Last Chance"
-  price: "15"
-  priceCurrency: "EUR"
-  ticketsNumber: "20"
-  ribbon: "-20%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2017-11-25T00:00"
-  validThrough: "2017-11-30T23:59"
-  disabled: true
-  #soldOutText: "Sold Out"
- -
   name: "Aparatico"
   price: "20"
   priceCurrency: "EUR"
@@ -191,7 +177,7 @@ ticketsOffers:
 socialLinks:
  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+# - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
