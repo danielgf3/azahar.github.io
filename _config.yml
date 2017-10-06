@@ -137,33 +137,34 @@ ticketsOffers:
  -
   name: "Early Bird"
   price: "15"
-  priceCurrency: "UAH"
+  priceCurrency: "EUR"
   ticketsNumber: "50"
-  ribbon: "-5%"
+  ribbon: "-20%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2017-10-10T00:00"
   validThrough: "2017-10-31T23:59"
+  #soldOutText: "Sold Out"
  -
   name: "Last Chance"
   price: "15"
-  priceCurrency: "UAH"
+  priceCurrency: "EUR"
   ticketsNumber: "20"
   ribbon: "-20%"
-  featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2017-11-25T00:00"
   validThrough: "2017-11-30T23:59"
   disabled: true
+  #soldOutText: "Sold Out"
  -
   name: "Aparatico"
   price: "20"
-  priceCurrency: "UAH"
+  priceCurrency: "EUR"
   ticketsNumber: "100"
-  ribbon: "-20%"
+  #ribbon: "-20%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
@@ -171,10 +172,11 @@ ticketsOffers:
   validFrom: "2017-11-25T00:00"
   validThrough: "2017-11-30T23:59"
   disabled: true
+  #soldOutText: "Sold Out"
  -
   name: "Student"
   price: "5"
-  priceCurrency: "UAH"
+  priceCurrency: "EUR"
   ticketsNumber: "10"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
@@ -183,7 +185,7 @@ ticketsOffers:
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
   soldOut: true
-  soldOutText: "Sold Out"
+  #soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
