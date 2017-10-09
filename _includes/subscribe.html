@@ -1,12 +1,14 @@
 <!-- Begin Subscribe Section -->
 <section id="subscribe" class="subscribe image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.subscribeImage }});">
+
+
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
             <h3>{{ site.subscribeTitle }}</h3>
             <div id="mc_embed_signup" class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
-                <form action="{{site.subscribeAction}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div class="mc-field-group col-lg-9 col-sm-9 col-xs-12">
+                <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="mc-field-group col-lg-9 col-sm-9 col-xs-12" >
                         <i class="email bordered required waves-effect waves-light waves-input-wrapper">
                             <input type="email" value="" name="EMAIL" class="waves-button-input" id="mce-EMAIL" placeholder="your@email.com" autocomplete="off">
                         </i>
@@ -21,7 +23,7 @@
                     </div>
                     <div class="mc-submit-group clear col-lg-3 col-sm-3 col-xs-12">
                         <i class="button bordered required waves-effect waves-light waves-input-wrapper">
-						  <input type="submit" class="waves-button-input" value="Submit" name="subscribe" id="mc-embedded-subscribe">
+						  <input onclick="saveToFirebase()" type="button" class="waves-button-input" value="Submit" name="subscribe" id="mc-embedded-subscribe">
                         </i>
                     </div>
                 </form>
@@ -29,5 +31,40 @@
             </div>
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyBikeVSMujydKlDAlmdasl8xzlBcX5Lwm8",
+        authDomain: "malagadevfest-5f472.firebaseapp.com",
+        databaseURL: "https://malagadevfest-5f472.firebaseio.com",
+        projectId: "malagadevfest-5f472",
+        storageBucket: "",
+        messagingSenderId: "502899281555"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+    function saveToFirebase() {
+      var emailInput = document.getElementById("mce-EMAIL");
+      if(validateEmail(emailInput.value)){
+        console.log("Saving...");
+
+        var newPostKey = firebase.database().ref().child('emails').push().key;
+
+        var updates = {};
+        updates['/emails/' + newPostKey] = emailInput.value;
+        emailInput.value = "";
+        return firebase.database().ref().update(updates);
+      } else {
+        alert("Invalid email address");
+      }
+    }
+
+    function validateEmail(email) {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
+    </script>
+
 </section>
 <!-- End Subscribe Section -->

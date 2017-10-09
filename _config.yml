@@ -55,8 +55,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
+heroTitle: "GDG DevFest <typeout> 2017"
+eventDate: "September - November, 2017"
 typeoutTextValues: '"", "Málaga"'
 typeoutFallback: "Season"
 heroButtons:
@@ -99,9 +99,9 @@ eventAddressCountry: "Ukraine"
 eventStartTime: "2017-12-01T10:00"
 eventDoorTime: "09:30"
 eventEndTime: "2017-12-01T20:00"
-eventPlaceCoordinates: "36.716775, -4.478202" 
-mapCenterCoordinates: "36.716775, -4.478152" 
-mapMobileCenterCoordinates: "36.716858, -4.477860" 
+eventPlaceCoordinates: "36.716775, -4.478202"
+mapCenterCoordinates: "36.716775, -4.478152"
+mapMobileCenterCoordinates: "36.716858, -4.477860"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -126,7 +126,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeAction: "https://malagadevfest-5f472.firebaseio.com/email.json"
 subscribeInfo: "Registration will be open around end of November. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
