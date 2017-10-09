@@ -54,6 +54,7 @@
         var updates = {};
         updates['/emails/' + newPostKey] = emailInput.value;
         emailInput.value = "";
+        alert("We'll email you about any updates ;)");
         return firebase.database().ref().update(updates);
       } else {
         alert("Invalid email address");
