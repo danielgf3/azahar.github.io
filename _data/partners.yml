@@ -2,4 +2,4 @@
   group: "Brought to you by"
   elements: 
     - {name: "GDG Málaga", description: "GDG Málaga", link: "https://www.meetup.com/es-ES/Google-Developer-Group-Malaga/", imageUrl: "gdg-malaga.png"}
-    - {name: "Betabeers MLG", description: "Betabeers MLG", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "betabeers.png"}
+    - {name: "Betabeers MLG", description: "Betabeers MLG", link: "https://betabeers.com/community/betabeers-malaga-28/", imageUrl: "betabeers.png"}
