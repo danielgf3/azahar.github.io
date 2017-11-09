@@ -126,7 +126,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Get notified to register"
 subscribeAction: "https://malagadevfest-5f472.firebaseio.com/email.json"
-subscribeInfo: "Registration will open on November 13th. The number of tickets is limited. Stay tuned!"
+subscribeInfo: "Registration will open on the afternoon of November 15th. The number of tickets is limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
