@@ -45,3 +45,58 @@
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/elecash"}
+- 
+  id: 5
+  name: "Jorge"
+  surname: "del Casar"
+  company: "Kairós"
+  title: "Head of Development"
+  bio: '<p>Jorge del Casar es Desarrollador Frontend con 15 años de experiencia y trabaja como Head of Development en Kairós Digital Solutions. Desde sus comienzos ha sido un entusiasta de los estándares y la accesibilidad. En 2009 empezó a interesarse en Javascript y desde hace más de 2 años desarrolla y defiende los Web Components y Polymer. Es Google Developer Expert en Web Technologies y miembro del Technical Advisory Group de Microsoft.</p>'
+  thumbnailUrl: JorgeCasar.png
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/JorgeCasar"}
+- 
+  id: 6
+  name: "Nerea"
+  surname: "Luis"
+  company: "Universidad Carlos III"
+  title: "PhD Studend"
+  bio: '<p>PhD student on Artificial Intelligence and Robotics. I belong to PLG research group at UC3M. I am a Women-techmaker/anita borg scholar since 2016. Interested in robots, automated planning and AI. I am the t3chfest cofounder.</p>'
+  thumbnailUrl: NereaLuis.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/sailormercury91"}
+- 
+  id: 7
+  name: "Alberto"
+  surname: "Gutiérrez"
+  company: "RedHat"
+  title: "Middleware Developer"
+  bio: '<p>Software Engineer in RedHat working in ManageIQ Project and Middleware with RoR, Go and angular. With more than 3 years of professional experience like SysAdmin (Hadoop certified, CloudForms) and Developer (Microservices in Go, OpenStack certified), working in opensource projects and organizer of GDGCloud Madrid.</p>'
+  thumbnailUrl: AlbertoGutierrez.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/aljesusg"}
+- 
+  id: 8
+  name: "Diego"
+  surname: "Rodríguez"
+  company: "Lynda.com"
+  title: "Diseñador"
+  bio: '<p>Diseñador de cosas analógicas o digitales siempre en movimiento. Promoviendo un entorno tecnológico en Bilbao a través de elComité. Además de escribiendo un libro sobre Nuevas Profesiones Digitales.</p>'
+  thumbnailUrl: DiegoRodriguez.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/arketipo"}
+#- 
+#  id: 9
+#  name: "Sergi"
+#  surname: "Martínez"
+#  company: "Schibsted Spain"
+#  title: "Android GDE and Developer"
+#  bio: '<p>Android GDE and dev at Schibsted Spain. Loving to learn things and share knowledge.</p>'
+#  thumbnailUrl: SergiMartinez.jpg
+#  rockstar: false
+#  social:
+#    - {name: "twitter", link: "https://twitter.com/sergiandreplace"}

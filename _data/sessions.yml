@@ -3,14 +3,17 @@
   title: "Coffee Break"
   place: "Hall"
   service: true
-  description: "The best time to talk with speakers and attendees"
-
+  description: "The best time to catch up with other speakers and attendees!"
 -
   id: 101
-  title: "TO BE ANNOUNCED"
+  title: "To be announced."
   place: "UMA"
   service: true
-  description: "Oh hai! Come back shortly!"
+-
+  id: 111
+  title: "Welcome Keynote!"
+  place: "Amphytheatre"
+  service: true
 -
   id: 001
   title: "Functional Programming with Kotlin"
@@ -24,9 +27,49 @@
   id: 002
   title: "Aplicando Machine Learning sobre imágenes para optimizar el transporte público"
   description: "Mostraremos como las técnicas de machine learning aplicadas al procesamiento de imágenes pueden ser usadas para detectar densidades de gente en un área especifica para posteriormente evaluar frente a la frecuencia de los transportes públicos de la zona como podría llevarse a cabo una auto regulación automática de los mismos."
-  subtype: workshop
+  subtype: keynote
   speakers: [2]
   language: es
+  complexity: "Intermediate"
+-
+  id: 003
+  title: "Diseño para programadores: las 100 cosas que siempre quisiste saber y no te atreviste a preguntar"
+  description: "Hay un GAP importante entre programadores y diseñadores. A los segundos se nos ha acusado siempre, cuando no teníamos una base sólida de programación, de no entender el entorno digital. Pero nunca he escuchado hablar sobre el otro problema, la falta de base sobre Diseño que tienen los profesionales técnicos. Llevo tiempo tratando de tender puentes y aunar lenguajes, en esta charla intentaré crear una visión sólida de algunos de los fundamentos del Diseño aplicado a proyectos digitales."
+  subtype: keynote
+  speakers: [8]
+  language: es
   complexity: "Intermediate" 
+-
+  id: 004
+  title: "Some things you don’t know about Angular"
+  description: "In this talk I want to show some insights and things that people usually don't know about Angular."
+  subtype: keynote
+  speakers: [4]
+  language: es
+  complexity: "Intermediate" 
+-
+  id: 005
+  title: "Go from 0 to GO!"
+  subtype: workshop
+  speakers: [7]
+  language: es
+  complexity: "Intermediate" 
+  description: '<b>Requisitos:</b><br>Tener Go instalado [<a href="https://golang.org/doc/install">aqui</a>]<br>Tener algun editor de texto o IDE instalado [<a href="https://www.jetbrains.com/go/">el de JetBrains recomendado</a>]<br><br>Workshop de GO desde 0… lo que de tiempo ;)<br><br><b>Contenido:</b><ul><li>Getting Started With Go</li><li>Errors</li><li>Concurrency</li><li>Testing</li><li>Package Management With Dep</li><li>Context</li><li>Building And Compiling Go Applications</li><li>Protocol Buffers</li><li>GRPC</li></ul>'
+-
+  id: 006
+  title: "Inclusion in technology + Building your first chatbot with Actions on Google!"
+  description: "Amanda Cavallaro, a software developer who works at resolver.co.uk and is a Women Techmakers Lead and Community Organiser at GDG Cloud London will host a talk followed by codelabs on how to get started with building conversational bots. From creating a persona and finally we will learn how to  create a chatbot about a personality selected by you using Actions on Google and not a single line of code!"
+  subtype: keynote
+  speakers: [1]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 007
+  title: "¿Y si los robots nos pidieran ayuda?"
+  description: "Mucho se ha especulado de la inteligencia artificial y los robots autónomos en los últimos años. ¿Pero en qué estado nos encontramos realmente? ¿Dónde están todos esos super robots que nos han prometido? ¿Por qué no podemos vivir sólo con los roomba y con un par de drones?... <br><br>Desde hace tres años me dedico a la investigación en planificación automática y robótica. En esta charla quiero contaros las principales vías de investigación en IA y robótica en las que se está trabajando en el mundo universitario y los avances de las empresas punteras en robótica.<br><br>Hablaré, entre otras cosas de un concepto muy interesante: la colaboración entre humanos y robots, conocida como Symbiotic Autonomy. Por cierto, la investigadora que ideó el concepto se llama Manuela Veloso y es la fundadora de la Robocup, la liga internacional de robots que juegan al fútbol! Seguro que has visto miles de videos en Youtube sobre esa liga :)<br><br>Por otro lado hablaré de proyectos de investigación vigentes en la Unión Europea y Estados Unidos sobre robótica, también sobre las competiciones anuales y sus objetivos a corto plazo y de los avances de empresas como Boston Dynamics, Aldebaran Robotics o Reem-PAL robotics."
+  subtype: keynote
+  speakers: [6]
+  language: es
+  complexity: "Intermediate"
   #presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
   #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
