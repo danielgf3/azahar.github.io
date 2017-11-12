@@ -71,5 +71,38 @@
   speakers: [6]
   language: es
   complexity: "Intermediate"
+-
+  id: 008
+  title: "This is your captain speaking, please put your phone in airplane mode"
+  description: "Do you wonder how to improve the user experience of your web users? Why not allowing them to interact with your application even when they don't have a reliable network connection?
+In this live coding, we will see how to set a complete offline-first strategy using new APIs like service worker, background-sync, the cache API and IndexedDB"
+  subtype: keynote
+  speakers: [10]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 009
+  title: "Offline-first sin despeinarte con Cloud Firestore"
+  description: "¿Harta de leer sobre los beneficios del offline-first y no saber ni por dónde empezar? En esta charla veremos la ultima novedad de Firebase: su nueva base de datos Cloud Firestore con la que ofrecer acceso offline a tus datos es pura automagia."
+  subtype: keynote
+  speakers: [13]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 010
+  title: "Enseña a hablar a tu app"
+  description: "Las interfaces conversaciones están en auge. Cada vez son más los que se suben al carro de la inteligencia artificial, asistentes y chatbots.<br>En esta charla aprenderemos cómo diseñar, desarrollar y distribuir una aplicación conversacional. Para ello usaremos la plataforma Actions on Google y nos ayudaremos de las herramientas Dialogflow y Cloud Functions para el desarrollo de la aplicación."
+  subtype: keynote
+  speakers: [5]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 011
+  title: "What's Flutter and why should you care?"
+  description: "Flutter is the new kid in town. Developed by Google, it's a new framework for creating mobile apps for Android and iOS. Let me convince you why it could be such a game changer and how exciting it is."
+  subtype: keynote
+  speakers: [9]
+  language: es
+  complexity: "Intermediate"
   #presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
   #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
