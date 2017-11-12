@@ -89,14 +89,47 @@
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/arketipo"}
-#- 
-#  id: 9
-#  name: "Sergi"
-#  surname: "Martínez"
-#  company: "Schibsted Spain"
-#  title: "Android GDE and Developer"
-#  bio: '<p>Android GDE and dev at Schibsted Spain. Loving to learn things and share knowledge.</p>'
-#  thumbnailUrl: SergiMartinez.jpg
-#  rockstar: false
-#  social:
-#    - {name: "twitter", link: "https://twitter.com/sergiandreplace"}
+- 
+  id: 9
+  name: "Sergi"
+  surname: "Martínez"
+  company: "Schibsted Spain"
+  title: "Android GDE and Developer"
+  bio: '<p>Android GDE and dev at Schibsted Spain. Loving to learn things and share knowledge.</p>'
+  thumbnailUrl: SergiMartinez.jpg
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/sergiandreplace"}
+- 
+  id: 10
+  name: "Olivier"
+  surname: "Leplus"
+  company: ""
+  title: "Web Developer & Former DevRel @ Google"
+  bio: '<p>Web developer & Traveler. My day to day my mission is to help developers create successful and quality apps. As a passionate web developer, I am always discovering and playing with new web technologies!. Formerly part of the Developer Relationship team at Google.</p>'
+  thumbnailUrl: OlivierLeplus.png
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/olivierleplus"}
+- 
+  id: 11
+  name: "Laura"
+  surname: "Morillo-Velarde"
+  company: "Seedtag"
+  title: "Backend engineer"
+  bio: '<p>Backend Engineer en seedtag. Ha peleado con muchas tecnologías desde C++ a Javascript y a a ratos lidia con servidores. En su tiempo libre además organiza meetups para el GDG Madrid y para grupos en los que promueve la mayor participación de las mujeres en tecnología (AgileGirls y Tech&Ladies).</p>'
+  thumbnailUrl: LauraMorillo.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/laura_morillo"}
+- 
+  id: 13
+  name: "Kike"
+  surname: "Navalon"
+  company: "BICG"
+  title: "Technical Product Manager & JS Developer"
+  bio: '<p>Ingeniero de teleco enamorado de las tecnologías web y cloud, con especial amor por las APIs, las automatizaciones y el real-time. Intenté hacer un doctorado pero me tiran más los proyectos reales y dinámicos. Dejé mi trabajo para empezar mi startup, que no fue exactamente como estaba planeada… Actualmente trabajo y me divierto en BICG y gasto lo que me queda de tiempo en meetups, hackathones y hablar de tecnología con el primero que pasa por la calle.</p>'
+  thumbnailUrl: KikeNavalon.jpg
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/garcianavalon"}
