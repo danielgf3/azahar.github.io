@@ -123,7 +123,7 @@ In this live coding, we will see how to set a complete offline-first strategy us
 -
   id: 014
   title: "A (data) stream full of phish: Procesamiento de Eventos Complejos para detectar de amenazas de seguridad"
-  description: "Aunque el Procesamiento de Eventos Complejos no es una tecnología tan "mainstream" como Big Data o Machine Learning, está detras de muchos procesos analíticos en campos como las finanzas, el social media e IoT. Es más, hay otros campos perfectos para el análisis de grandes flujos heterogeneos de datos donde no se han explorados sus virtudes, y uno de ellos es la seguridad de la información.<br><br>Durante la charla veremos qué es eso del Procesamiento de Eventos Complejos, como podemos usarlo a través de una arquitectura Orientada a Servicios y Dirigida por Eventos y finalmente su aplicación al campo de la seguridad, dandole por el camino una vuelta de tuerca a problemas tan antiguos como el fraude online, entre otras amenazas."
+  description: "Aunque el Procesamiento de Eventos Complejos no es una tecnología tan mainstream como Big Data o Machine Learning, está detras de muchos procesos analíticos en campos como las finanzas, el social media e IoT. Es más, hay otros campos perfectos para el análisis de grandes flujos heterogeneos de datos donde no se han explorados sus virtudes, y uno de ellos es la seguridad de la información.<br><br>Durante la charla veremos qué es eso del Procesamiento de Eventos Complejos, como podemos usarlo a través de una arquitectura Orientada a Servicios y Dirigida por Eventos y finalmente su aplicación al campo de la seguridad, dandole por el camino una vuelta de tuerca a problemas tan antiguos como el fraude online, entre otras amenazas."
   subtype: keynote
   speakers: [17]
   language: es
