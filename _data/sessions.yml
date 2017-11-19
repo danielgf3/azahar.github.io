@@ -104,5 +104,45 @@ In this live coding, we will see how to set a complete offline-first strategy us
   speakers: [9]
   language: es
   complexity: "Intermediate"
+-
+  id: 012
+  title: "Arquitectura de Angular en el servidor: NestJS"
+  description: "Nest es un framework para construir aplicaciones web eficientes y escalares usando nodeJS el cual es construido sobre TypeScript con la arquitectura de diseño de software aplicada por Angular. Para ello se dispone de conceptos como controladores, modelos, middlewares, pipes, guardas, interceptores, inyección de dependencia, pruebas unitarias y e2e."
+  subtype: keynote
+  speakers: [15, 16]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 013
+  title: "¡Refactoriza tu vida!"
+  description: "Mejorando nuestro código, desde variables hasta Clases, y aplicando la empatía."
+  subtype: keynote
+  speakers: [14]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 014
+  title: "An event-driven approach to log monitoring"
+  description: "Application of SOA 2.0 (Service-oriented and event-driven) architecture and Complex Event Processing for security monitoring using log data."
+  subtype: keynote
+  speakers: [17]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 015
+  title: "GitHub: la única red social que necesitas"
+  description: "En esta charla cuento cómo sacar provecho a GitHub, cómo me ayudó a ser un mejor desarrollador y a conocer gente con las mismas inquietudes que yo."
+  subtype: keynote
+  speakers: [18]
+  language: es
+  complexity: "Intermediate"
+-
+  id: 016
+  title: "Desarrollo y despliegue continuo con microservicios"
+  description: "La complejidad del sistema que desarrollamos en seedtag nos ha llevado a evolucionar de un sistema monolítico a uno compuesto por microservicios. En esta charla hablaré de cómo hemos adaptado nuestro flujo de desarrollo para simplificar nuestros entornos y cómo hemos ido integrando todo para tener nuestro sistema de despliegue continuo con Jenkins y Kubernetes."
+  subtype: keynote
+  speakers: [11]
+  language: es
+  complexity: "Intermediate"
   #presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
   #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
