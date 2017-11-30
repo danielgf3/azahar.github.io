@@ -49,7 +49,7 @@
   id: 5
   name: "Jorge"
   surname: "del Casar"
-  company: "Kairós"
+  company: "Kairós DS"
   title: "Head of Development"
   bio: '<p>Jorge del Casar es Desarrollador Frontend con 15 años de experiencia y trabaja como Head of Development en Kairós Digital Solutions. Desde sus comienzos ha sido un entusiasta de los estándares y la accesibilidad. En 2009 empezó a interesarse en Javascript y desde hace más de 2 años desarrolla y defiende los Web Components y Polymer. Es Google Developer Expert en Web Technologies y miembro del Technical Advisory Group de Microsoft.</p>'
   thumbnailUrl: JorgeCasar.png

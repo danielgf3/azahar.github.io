@@ -62,7 +62,7 @@ typeoutTextValues: '"", "Málaga"'
 typeoutFallback: "Season"
 heroButtons:
  #- {link: "https://goo.gl/Z4w3cY", text: "Become a speaker"}
- - {permalink: "/#subscribe", text: "Get your ticket"}
+ - {permalink: "/#tickets", text: "Get your ticket"}
 # About Block
 aboutTitle: "About DevFest Málaga"
 aboutBlock:
