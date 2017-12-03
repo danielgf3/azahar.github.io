@@ -39,6 +39,7 @@
   speakers: [8]
   language: es
   complexity: "Intermediate" 
+  presentation: "https://www.evernote.com/pub/arketipo/malaga"
 -
   id: 004
   title: "Some things you don’t know about Angular"
@@ -46,7 +47,8 @@
   subtype: keynote
   speakers: [4]
   language: es
-  complexity: "Intermediate" 
+  complexity: "Intermediate"
+  presentation: "http://slides.com/elecash/algunas-cosas-sobre-angular#/"
 -
   id: 005
   title: "Go from 0 to GO!"
@@ -63,6 +65,7 @@
   speakers: [1]
   language: es
   complexity: "Intermediate"
+  presentation: "https://docs.google.com/presentation/d/1cbkLxO7V6rhI8kojSOFCkOQ-UDg_8vS7XhhPfd9SPL8/edit#slide=id.p"
 -
   id: 007
   title: "¿Y si los robots nos pidieran ayuda?"
@@ -71,6 +74,7 @@
   speakers: [6]
   language: es
   complexity: "Intermediate"
+  presentation: "https://docs.google.com/presentation/d/1FAqE3p07DnwmzxCjhZYmTO7135znzq96M9P0qJN3LSU/edit?usp=sharing"
 -
   id: 008
   title: "This is your captain speaking, please put your phone in airplane mode"
@@ -80,6 +84,8 @@ In this live coding, we will see how to set a complete offline-first strategy us
   speakers: [10]
   language: en
   complexity: "Intermediate"
+  video: "//www.youtube.com/embed/vdsrw7lwvZY"
+  presentation: "http://slides.com/olivierleplus/offline-support-progressive-web-app-pwa-1/fullscreen#/"
 -
   id: 009
   title: "Offline-first sin despeinarte con Cloud Firestore"
@@ -104,6 +110,7 @@ In this live coding, we will see how to set a complete offline-first strategy us
   speakers: [9]
   language: es
   complexity: "Intermediate"
+  presentation: "https://www.slideshare.net/sergiandreplace/what-is-flutter-and-why-should-i-care-82802755"
 -
   id: 012
   title: "Arquitectura de Angular en el servidor: NestJS"
@@ -112,6 +119,7 @@ In this live coding, we will see how to set a complete offline-first strategy us
   speakers: [15, 16]
   language: es
   complexity: "Intermediate"
+  presentation: "https://caballerog.github.io/devfestmalaga2017/slides/index.html"
 -
   id: 013
   title: "¡Refactoriza tu vida!"
@@ -120,6 +128,7 @@ In this live coding, we will see how to set a complete offline-first strategy us
   speakers: [14]
   language: es
   complexity: "Intermediate"
+  presentation: "https://docs.google.com/presentation/d/1VJvrU4b4t6SZjElieOHbFxuN7BK9TxQd5VxUcUAsboA/"
 -
   id: 014
   title: "A (data) stream full of phish: Procesamiento de Eventos Complejos para detectar de amenazas de seguridad"
