@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "DevFest Málaga '17"
-email: "gdgmalaga@gmail.com"
+email: "gdg.malaga@gmail.com"
 description: "Welcome to the first edition of DevFest in Málaga: a yearly developers event in the warm Costa del Sol! December 1st, 2017"
 baseurl: ""
 url: "https://devfest.gdgmalaga.com"
